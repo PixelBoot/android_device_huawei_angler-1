@@ -341,9 +341,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
 
 # Thermal HAL
-PRODUCT_PACKAGES += \
-    thermal.angler \
-    android.hardware.thermal@2.0-service.mock
+#PRODUCT_PACKAGES += \
+#    thermal.angler \
+#    android.hardware.thermal@1.0-impl
 
 #GNSS HAL
 PRODUCT_PACKAGES += \
