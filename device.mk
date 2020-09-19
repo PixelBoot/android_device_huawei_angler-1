@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal configuration
 PRODUCT_COPY_FILES += \
-    device/huawei/angler/thermal-engine-angler.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine.conf
+    device/huawei/angler/thermal/thermal-engine-angler.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine.conf
 
 # Media
 PRODUCT_COPY_FILES += \
