@@ -612,7 +612,7 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4358
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
-    device/huawei/angler/gps.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps.conf:qcom
+    device/huawei/angler/gps/gps.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps.conf:qcom
 
 # services for encryption
 PRODUCT_PACKAGES += \
