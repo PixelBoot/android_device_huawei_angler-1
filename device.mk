@@ -111,7 +111,7 @@ PRODUCT_OEM_PROPERTIES := \
     oem.*
 
 PRODUCT_COPY_FILES += \
-    device/huawei/angler/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
+    device/huawei/angler/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
 # Wifi
 PRODUCT_COPY_FILES += \
@@ -165,7 +165,7 @@ $(call inherit-product, device/huawei/angler/utils.mk)
 
 # MSM IRQ Balancer configuration file
 PRODUCT_COPY_FILES += \
-    device/huawei/angler/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
+    device/huawei/angler/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
 # Qseecomd configuration file
 PRODUCT_COPY_FILES += \
