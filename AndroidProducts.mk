@@ -16,8 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_angler.mk \
-    $(LOCAL_DIR)/statix_angler.mk
+    $(LOCAL_DIR)/lineage_angler.mk
 
 COMMON_LUNCH_CHOICES += \
-    statix_angler-userdebug \
-    statix_angler-eng
+    lineage_angler-userdebug \
+    lineage_angler-eng

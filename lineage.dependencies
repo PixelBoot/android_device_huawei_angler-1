@@ -1,0 +1,20 @@
+[
+ {
+   "repository": "android_kernel_huawei_angler",
+   "target_path": "kernel/huawei/angler",
+ },
+ {
+   "repository": "android_vendor_huawei",
+   "target_path": "vendor/huawei",
+ },
+ {
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch": "lineage-17.1"
+ },
+ {
+    "repository": "stx-staging/android_prebuilts_gcc_linux-x86_arm64-gcc",
+    "target_path": "prebuilts/gcc/linux-x86/arm64-gcc",
+    "branch": "11"
+ }
+]
