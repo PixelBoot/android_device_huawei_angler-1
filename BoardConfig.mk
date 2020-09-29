@@ -166,6 +166,9 @@ NXP_CHIP_TYPE := 2
 # Graphics
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x02000000U
 
+# HIDL
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
+
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /system/vendor/bin/ATFWD-daemon|libcutils_shim.so \
